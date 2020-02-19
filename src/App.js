@@ -7,14 +7,21 @@ function App() {
 
   const [{ fonts }, setState] =
     useState({ 
-      fonts: ['Times New Roman','Courier New','Georgia']
-    })
+      fonts: ['Arial', 'Times New Roman', 'Courier New', 'Verdana', 'Georgia','Garamond', 'Comic Sans', 'Impact']
+    });
+
+  const updateList = (name) => {
+    var list = fonts;
+    list.push(name);
+    setState(prevState => ({
+      ...prevState, fonts: list
+    }))
+  }
 
   return (
     <div className="App">
-        <p>hello world</p>
       <div className="main">
-        <Search />
+        <Search updatelist={updateList}/>
         <FontList fonts={fonts} />
       </div>
     </div>

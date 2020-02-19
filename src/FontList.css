@@ -1,0 +1,19 @@
+.font-tester {
+    border: 0px;
+    font-size: 64px;
+}
+
+select {
+	-webkit-appearance: none;
+	border: 0px;
+	font-size: 16px;
+	background: 0px;
+	padding-left: 5px;
+	padding-bottom: 2px;
+}
+
+.font-list {
+	/* display: relative; */
+
+  justify-content: center;
+}
