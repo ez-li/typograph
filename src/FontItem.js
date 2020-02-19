@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './FontItem.css';
 
 function FontItem() {
   return (

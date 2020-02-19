@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
-import Search from 'FontItem.js';
-import FontList from 'FontItem.js';
+import Search from './Search.js';
+import FontList from './FontList.js';
 
 function App() {
 
