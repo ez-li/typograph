@@ -7,7 +7,7 @@ function App() {
 
   const [{ fonts }, setState] =
     useState({ 
-      fonts: []
+      fonts: ['Times New Roman','Courier New','Georgia']
     })
 
   return (
