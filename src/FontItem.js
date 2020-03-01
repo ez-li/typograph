@@ -32,7 +32,6 @@ function FontItem(props) {
 				placeholder={font}
 				style={{fontFamily: font, fontStyle: currentStyle, fontWeight: currentWeight}}
 				maxLength="30"
-
 			/>
 			<div>
 				<span>See it in</span> 

@@ -7,7 +7,11 @@ function Search(props) {
 
   return (
     <div className="search-bar">
-
+			<input className="search-input"
+				type="text"
+				placeholder="Preview this one.."
+				maxLength="30"
+			/>
     </div>
   );
 }

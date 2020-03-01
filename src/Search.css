@@ -1,0 +1,13 @@
+.search-bar {
+    border: 1px rgba(0,0,0,.5);
+    padding: 3rem;
+}
+
+.search-input {
+    background-color: #fff;
+    outline: none;
+    text-align: center;
+    -webkit-appearance: none;
+    font-size: 30px;
+}
+
